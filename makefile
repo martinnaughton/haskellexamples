@@ -9,6 +9,7 @@ all : src/*.hs
 	ghc -o target/MultipleReturn src/MultipleReturn.hs
 	ghc -o target/2Functions src/2Functions.hs 
 	ghc -o target/arrays src/arrays.hs 
+	ghc -o target/lines src/lines.hs
 
 clean : src/*.o
 	rm src/*.o
