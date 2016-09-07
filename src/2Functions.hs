@@ -10,6 +10,7 @@ main = do
        putStrLn dog
        let number = addNumber(1, 2)
        print number
+       putStrLn(dog ++ show number)
 
 
 --main = putStrLn( addBark ("Some ","Dog says: "))
