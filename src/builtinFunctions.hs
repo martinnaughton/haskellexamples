@@ -1,5 +1,8 @@
 -- the way to pass a list it is with brackets [] with the type inside.
-addTop2 :: [Int] -> Int
-addTop2 lst = head lst 
+addFirstAndLast :: [Int] -> Int
+addFirstAndLast lst = do 
+                      let first = head lst 
+                      let lastNum = last lst 
+                      first + lastNum
 
-main = print ( addTop2 [1..3])
+main = print ( addFirstAndLast [1..3])
